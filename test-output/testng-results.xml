@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26136" started-at="2020-09-01T00:15:15Z" finished-at="2020-09-01T00:15:41Z">
+  <suite name="Default suite" duration-ms="34452" started-at="2020-09-01T00:52:50Z" finished-at="2020-09-01T00:53:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26136" started-at="2020-09-01T00:15:15Z" finished-at="2020-09-01T00:15:41Z">
+    <test name="Default test" duration-ms="34452" started-at="2020-09-01T00:52:50Z" finished-at="2020-09-01T00:53:25Z">
       <class name="Basetest">
-        <test-method status="PASS" signature="setupClass()[pri:0, instance:Basetest@271053e1]" name="setupClass" is-config="true" duration-ms="2890" started-at="2020-09-01T00:15:12Z" finished-at="2020-09-01T00:15:15Z">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:Basetest@271053e1]" name="setupClass" is-config="true" duration-ms="507" started-at="2020-09-01T00:52:50Z" finished-at="2020-09-01T00:52:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:Basetest@271053e1]" name="setupTest" is-config="true" duration-ms="6092" started-at="2020-09-01T00:15:15Z" finished-at="2020-09-01T00:15:21Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:Basetest@271053e1]" name="setupTest" is-config="true" duration-ms="8283" started-at="2020-09-01T00:52:50Z" finished-at="2020-09-01T00:52:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="execute()[pri:0, instance:Basetest@271053e1]" name="execute" duration-ms="18746" started-at="2020-09-01T00:15:21Z" finished-at="2020-09-01T00:15:40Z">
+        <test-method status="PASS" signature="execute()[pri:0, instance:Basetest@271053e1]" name="execute" duration-ms="24370" started-at="2020-09-01T00:52:59Z" finished-at="2020-09-01T00:53:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- execute -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Basetest@271053e1]" name="teardown" is-config="true" duration-ms="1283" started-at="2020-09-01T00:15:40Z" finished-at="2020-09-01T00:15:41Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Basetest@271053e1]" name="teardown" is-config="true" duration-ms="1694" started-at="2020-09-01T00:53:23Z" finished-at="2020-09-01T00:53:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

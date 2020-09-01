@@ -31,16 +31,16 @@ public class Basetest {
 		WebDriverManager.chromedriver().setup();
 
 		driver = new ChromeDriver(options);
-		
-		
+
+
 	}
 
-	  @AfterClass
-	    public void teardown() {
-	        if (driver != null) {
-	            driver.quit();
-	        }
-	  }
+	@AfterClass
+	public void teardown() {
+		if (driver != null) {
+			driver.quit();
+		}
+	}
 
 	@Test
 
@@ -54,17 +54,17 @@ public class Basetest {
 		fb.enterusername(driver);
 		fb.enterpwd(driver);
 		fb.clicklogin(driver);
-		
+
 		FBhomePage fbg=new FBhomePage();
 		fbg.searchelemet(driver);
-		
+
 		Thread.sleep(5000);
-		
+
 		String pagetitle=driver.getTitle();
 		System.out.println(driver.getTitle());
-		
+
 		assertEquals(pagetitle, "hir staging mobile – Facebook Search");
-		
+
 
 
 
