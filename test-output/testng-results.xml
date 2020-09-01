@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26136" started-at="2020-09-01T00:15:15Z" finished-at="2020-09-01T00:15:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26136" started-at="2020-09-01T00:15:15Z" finished-at="2020-09-01T00:15:41Z">
+      <class name="Basetest">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:Basetest@271053e1]" name="setupClass" is-config="true" duration-ms="2890" started-at="2020-09-01T00:15:12Z" finished-at="2020-09-01T00:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:Basetest@271053e1]" name="setupTest" is-config="true" duration-ms="6092" started-at="2020-09-01T00:15:15Z" finished-at="2020-09-01T00:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="execute()[pri:0, instance:Basetest@271053e1]" name="execute" duration-ms="18746" started-at="2020-09-01T00:15:21Z" finished-at="2020-09-01T00:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Basetest@271053e1]" name="teardown" is-config="true" duration-ms="1283" started-at="2020-09-01T00:15:40Z" finished-at="2020-09-01T00:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Basetest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
